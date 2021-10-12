@@ -14,6 +14,7 @@ function getjoke() {
     .then((res) => res.json())
     .then((data) => {
       joke.innerHTML = data.joke;
+      container.classList.remove("aylan");
     });
 }
 
@@ -22,6 +23,7 @@ const body = document.querySelector(".body");
 
 btn.addEventListener("click", () => {
   container.classList.add("aylan");
+  container.classList.add("aylan2");
   body.classList.add("body2");
   btn.classList.add("btn2");
 });
