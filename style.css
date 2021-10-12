@@ -65,3 +65,8 @@ h1 {
 .btn2:active {
   box-shadow: none;
 }
+.aylan2 {
+  background-color: #111;
+  box-shadow: 0 5px 5px 5px rgb(0, 255, 217);
+}
+
